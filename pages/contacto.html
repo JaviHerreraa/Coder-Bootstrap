@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bohouse - Contacto</title>
+    <link rel="shortcut icon" href="../imagenes/Logo icono.png" type="image/x-icon">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <!-- BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+<body class="bg-dark">
+    <header class="bg-dark">
+        <div class="ancho">
+            <div class="logo">
+                <h1 class="titulo bg-dark"><a href="index.html">BOHOUSE</a></h1>
+            </div>
+            <nav id="menu">
+                <ul class="ir">
+                    <li><a href="../index.html">Inicio</a></li>
+                    <li><a href="producto.html">Productos</a></li>
+                    <li><a href="historia.html">Historia</a></li>
+                    <li><a href="sucursales.html">Sucursales</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="main_contacto p-5 bg-dark text-white">
+        <form class="row g-3 needs-validation" novalidate="">
+            <div class="col-md-4">
+                <label for="validationCustom01" class="form-label">Nombre</label>
+                    <input type="text" class="form-control" id="validationCustom01" placeholder="Nombre" required="">
+                <div class="valid-feedback">
+                </div>
+            </div>
+            <div class="col-md-4">
+                <label for="validationCustom02" class="form-label">Apellido</label>
+                    <input type="text" class="form-control" id="validationCustom02" placeholder="Apellido" required="">
+                        <div class="valid-feedback">
+                        </div>
+            </div>
+            <div class="col-md-4">
+                <label for="validationCustomUsername" class="form-label">Email</label>
+                    <div class="input-group has-validation">
+                        <span class="input-group-text" id="inputGroupPrepend">@</span>
+                            <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required="">
+                                <div class="invalid-feedback">
+                                </div>
+                    </div>
+            </div>
+            <div class="col-md-6">
+                <label for="validationCustom03" class="form-label">Ciudad</label>
+                    <input type="text" class="form-control" id="validationCustom03" required="">
+                        <div class="invalid-feedback">
+                        </div>
+            </div>
+            <div class="col-md-3">
+                <label for="validationCustom04" class="form-label">Provincia</label>
+                    <select class="form-select" id="validationCustom04" required="">
+                        <option selected="" disabled="" value="">Provincia</option>
+                        <option>Córdoba</option>
+                        <option>Mendoza</option>
+                        <option>Buenos Aires</option>
+                    </select>
+                        <div class="invalid-feedback">
+                        </div>
+            </div>
+            <div class="col-12">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required="">
+                        <label class="form-check-label" for="invalidCheck">Acepto las condiciones
+                        </label>
+                            <div class="invalid-feedback">
+                            </div>
+                </div>
+            </div>
+            <div class="col-12">
+                <button class="btn btn-primary" type="submit">Enviar</button>
+            </div>
+        </form>
+    <main>
+    <footer class="bg-dark">
+        ¡Gracias por elegirnos!
+    </footer>
+</body>
+</html>
